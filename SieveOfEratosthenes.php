@@ -23,9 +23,9 @@ function find_primes($finish) {
 	return $primes;
 }
 
-$kacaKadar = find_primes(100000);
+$target = find_primes(100000);
 
-foreach ($kacaKadar as $key => $value) {
+foreach ($target as $key => $value) {
 	echo $value."\n";
 }
 
